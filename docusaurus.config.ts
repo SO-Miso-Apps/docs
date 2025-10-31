@@ -45,15 +45,6 @@ const config: Config = {
         sidebarPath: './sidebars.ts',
       },
     ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'wishlist',
-        path: 'docs/wishlist',
-        routeBasePath: 'wishlist',
-        sidebarPath: './sidebars.ts',
-      },
-    ],
   ],
 
   presets: [
