@@ -6,238 +6,127 @@ sidebar_position: 8
 
 # Button Effects
 
-Enhance your buttons with 8 premium animation effects to grab attention and boost engagement.
+Enhance buttons with 8 premium animation effects for engagement.
 
 ## Available Effects
 
-### Pulse
+| Effect | Style | Best For | Impact |
+|--------|-------|----------|--------|
+| **Pulse** | Subtle scaling | Professional | Medium |
+| **Glow** | Glowing shadow | Premium, modern | High |
+| **Ripple** | Water ripple | Playful | High |
+| **Scale** | Grow/shrink | Bold | Medium |
+| **Shine** | Light sweep | Luxury | Subtle |
+| **Bounce** | Bounce animation | Energetic | High |
+| **Slide** | Slides in | Dynamic | Medium |
+| **None** | No animation | Minimal | None |
 
-**Style:** Subtle scaling animation  
-**Best for:** Professional, clean look  
-**Impact:** Medium attention-grabbing
+## Choosing by Store Type
 
-Smoothly scales button slightly larger and back, creating a breathing effect.
-
-### Glow
-
-**Style:** Glowing shadow animation  
-**Best for:** Premium, modern stores  
-**Impact:** High attention-grabbing
-
-Adds animated glowing shadow around button for eye-catching effect.
-
-### Ripple
-
-**Style:** Water ripple expanding from center  
-**Best for:** Interactive, playful brands  
-**Impact:** High engagement
-
-Creates expanding circle animation like water ripple when button appears.
-
-### Scale
-
-**Style:** Gentle grow/shrink animation  
-**Best for:** Bold, confident brands  
-**Impact:** Medium attention-grabbing
-
-Continuously scales button slightly up and down for movement.
-
-### Shine
-
-**Style:** Light sweep across button  
-**Best for:** Luxury, premium products  
-**Impact:** Subtle but elegant
-
-Animated light sweeps across button surface periodically.
-
-### Bounce
-
-**Style:** Gentle bounce up and down  
-**Best for:** Fun, energetic brands  
-**Impact:** High attention-grabbing
-
-Button bounces gently, creating playful, energetic feel.
-
-### Slide
-
-**Style:** Slides in from side  
-**Best for:** Dynamic, modern stores  
-**Impact:** Medium attention-grabbing
-
-Button slides into view with smooth animation.
-
-### None
-
-**Style:** No animation  
-**Best for:** Minimal, clean design  
-**Impact:** Professional, subtle
-
-Static button with no animation for clean, distraction-free design.
-
-## Choosing the Right Effect
-
-| Store Type | Recommended Effect |
-|------------|-------------------|
-| **Fashion** | Glow, Pulse, Shine |
-| **Tech** | Pulse, None |
-| **Kids** | Bounce, Ripple |
-| **Luxury** | Shine, Pulse |
-| **Food** | Bounce, Ripple |
-| **Professional** | None, Pulse |
-| **Energetic** | Bounce, Glow, Ripple |
+| Store | Recommended |
+|-------|-------------|
+| Fashion | Glow, Pulse, Shine |
+| Tech | Pulse, None |
+| Kids | Bounce, Ripple |
+| Luxury | Shine, Pulse |
+| Food | Bounce, Ripple |
+| Professional | None, Pulse |
+| Energetic | Bounce, Glow, Ripple |
 
 ## Effect Comparison
 
-| Effect | Subtlety | Performance | Mobile-Friendly | Desktop-Friendly |
-|--------|----------|-------------|-----------------|------------------|
-| **Pulse** | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ✅ | ✅ |
-| **Glow** | ⭐⭐ | ⭐⭐⭐⭐ | ✅ | ✅ |
-| **Ripple** | ⭐ | ⭐⭐⭐⭐ | ✅ | ✅ |
-| **Scale** | ⭐⭐ | ⭐⭐⭐⭐⭐ | ✅ | ✅ |
-| **Shine** | ⭐⭐⭐ | ⭐⭐⭐⭐ | ✅ | ✅ |
-| **Bounce** | ⭐ | ⭐⭐⭐⭐⭐ | ✅ | ✅ |
-| **Slide** | ⭐⭐ | ⭐⭐⭐⭐ | ✅ | ✅ |
-| **None** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ✅ | ✅ |
+| Effect | Subtlety | Performance | Mobile | Desktop |
+|--------|----------|-------------|--------|---------|
+| Pulse | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ✅ | ✅ |
+| Glow | ⭐⭐ | ⭐⭐⭐⭐ | ✅ | ✅ |
+| Ripple | ⭐ | ⭐⭐⭐⭐ | ✅ | ✅ |
+| Scale | ⭐⭐ | ⭐⭐⭐⭐⭐ | ✅ | ✅ |
+| Shine | ⭐⭐⭐ | ⭐⭐⭐⭐ | ✅ | ✅ |
+| Bounce | ⭐ | ⭐⭐⭐⭐⭐ | ✅ | ✅ |
+| Slide | ⭐⭐ | ⭐⭐⭐⭐ | ✅ | ✅ |
+| None | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ✅ | ✅ |
 
 ## How to Apply
 
-1. Open Customizer
-2. Click **Effects** tab
-3. Select effect from dropdown
-4. Preview in real-time
-5. **Save & Deploy**
+1. Customizer → **Effects** tab
+2. Select effect from dropdown
+3. Preview in real-time
+4. **Save & Deploy**
 
-:::tip Testing Effects
-Try different effects in preview mode to see which matches your brand personality best.
+:::tip Testing
+Try different effects in preview to find best brand match.
 :::
 
-## Best Practices
+## When to Use Effects
 
-### When to Use Effects
+**Use when:**
+- Drawing attention needed
+- Energetic/playful brand
+- Boosting engagement
+- Mobile-first store
 
-**Use effects when:**
-- Want to draw attention to buttons
-- Brand is energetic/playful
-- Need to boost engagement
-- Mobile-first store (effects work great on mobile)
+**Skip when:**
+- Minimal aesthetic
+- Luxury/sophisticated brand
+- Performance critical
+- Distraction-free design
 
-**Skip effects when:**
-- Minimal, professional aesthetic
-- Luxury, sophisticated brand
-- Clean, distraction-free design preferred
-- Performance is critical
+## Performance
 
-### Performance Impact
-
-All effects are **GPU-accelerated** for smooth performance:
-- ⚡ Minimal CPU usage
-- 🚀 Smooth 60fps animations
+All effects are **GPU-accelerated**:
+- ⚡ Minimal CPU
+- 🚀 60fps smooth
 - 📱 Mobile-optimized
 - 💻 Desktop-friendly
 
-**No noticeable performance impact** on modern devices.
+## Accessibility
 
-### Accessibility
+- No flashing/strobing
+- Respects `prefers-reduced-motion`
+- Doesn't interfere with functionality
+- Optional (None available)
 
-Effects are designed with accessibility in mind:
-- No flashing or strobing
-- Respect `prefers-reduced-motion` setting
-- Don't interfere with functionality
-- Optional (can disable with None)
+## Testing Checklist
 
-## Testing Your Effect
-
-### Checklist
-
-- [ ] Preview on mobile
-- [ ] Preview on desktop
-- [ ] Check with brand personality
-- [ ] Test different products
-- [ ] Verify not distracting
-- [ ] Confirm smooth animation
-
-### A/B Testing
-
-Try different effects:
-```
-Week 1: Pulse
-Week 2: Glow
-Week 3: None
-Compare: Conversion rates
-```
-
-Pick the winner!
+- [ ] Preview mobile
+- [ ] Preview desktop
+- [ ] Matches brand
+- [ ] Test on products
+- [ ] Not distracting
+- [ ] Smooth animation
 
 ## Common Combinations
 
-### High Energy
+**High Energy:**
 ```
-Effect: Bounce or Glow
-Colors: Bright, vibrant
-Typography: Bold weights
+Effect: Bounce/Glow | Colors: Bright | Typography: Bold
 ```
 
-### Professional
+**Professional:**
 ```
-Effect: Pulse or None
-Colors: Conservative
-Typography: Medium weights
+Effect: Pulse/None | Colors: Conservative | Typography: Medium
 ```
 
-### Luxury
+**Luxury:**
 ```
-Effect: Shine or Pulse
-Colors: Elegant, muted
-Typography: Serif fonts
+Effect: Shine/Pulse | Colors: Elegant | Typography: Serif
 ```
 
-### Playful
+**Playful:**
 ```
-Effect: Ripple or Bounce
-Colors: Fun, colorful
-Typography: Rounded fonts
+Effect: Ripple/Bounce | Colors: Fun | Typography: Rounded
 ```
 
-## Mobile vs Desktop
+## Best Practices
 
-**Mobile:**
-- All effects work great
-- Touch-friendly
-- Smooth on modern phones
-- Grab attention on small screen
-
-**Desktop:**
-- Hover states complement effects
-- More subtle on larger screen
-- Consider user expectations
-- Test both platforms
-
-## Quick Tips
-
-1. ✅ **Match brand personality** - Fun brand = fun effect
-2. ✅ **Test in preview** - See before deploying
-3. ✅ **Consider audience** - Youth = more animation
-4. ✅ **Check performance** - Works on target devices
-5. ✅ **When in doubt, Pulse** - Safe, professional choice
-
-## Troubleshooting
-
-**Effect not showing?**
-- Clear browser cache
-- Hard refresh (Cmd+Shift+R)
-- Check if "None" selected
-- Verify effect supported on browser
-
-**Animation jerky?**
-- Update browser
-- Close other tabs
-- Test on different device
-- May be device limitation
+✅ Match brand personality  
+✅ Test in preview  
+✅ Consider audience  
+✅ Check performance  
+✅ When in doubt, use Pulse
 
 ## Next Steps
 
-- **[Colors](./colors)** - Match effect with colors
-- **[Typography](./typography)** - Complement with fonts
-- **[Best Practices](../advanced/best-practices)** - Optimize conversions
-
-Add the perfect touch of animation to boost engagement and conversions!
+- [Colors](./colors) - Match effect with colors
+- [Typography](./typography) - Complement fonts
+- [Best Practices](../advanced/best-practices) - Optimize

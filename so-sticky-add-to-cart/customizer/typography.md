@@ -6,55 +6,37 @@ sidebar_position: 5
 
 # Typography
 
-Control text appearance - fonts, sizes, and weights for perfect readability.
+Control text appearance for perfect readability across devices.
 
 ## Font Family
 
 ### System Fonts
 **-apple-system, Arial, Helvetica**
-
-- ⚡ Instant loading
-- 🚀 Best performance
+- ⚡ Instant loading, best performance
 - Native look
 
 ### Google Fonts
 
 | Font | Style | Best For |
 |------|-------|----------|
-| **Inter** | Modern sans-serif | Professional, clean |
+| **Inter** | Modern sans | Professional, clean |
 | **Roboto** | Neutral | Versatile, safe |
 | **Montserrat** | Geometric | Bold, confident |
 | **Poppins** | Rounded | Friendly, young |
 | **Lato** | Elegant | Warm, stable |
 | **Playfair** | Serif | Luxury, premium |
 
-**Tip:** Match your theme's font for consistency.
-
 ## Font Sizes
 
-### Product Name
-**Default:** 16px | **Range:** 12-24px
+| Element | Default | Range | Recommended |
+|---------|---------|-------|-------------|
+| **Product Name** | 16px | 12-24px | 16-18px |
+| **Price** | 18px | 14-28px | 18-22px |
+| **Button** | 16px | 12-20px | 16-17px |
 
-- **12-14px** - Compact, mobile
-- **16-18px** - Standard (recommended)
-- **20-24px** - Large, emphasis
+**Best Practice:** Price larger than product name for hierarchy.
 
-### Price
-**Default:** 18px | **Range:** 14-28px
-
-- **14-16px** - Subtle
-- **18-20px** - Standard
-- **24-28px** - Prominent
-
-**Best Practice:** Price larger than product name.
-
-### Button
-**Default:** 16px | **Range:** 12-20px
-
-- **14-16px** - Standard
-- **18-20px** - Large, accessible
-
-**Mobile:** Minimum 16px for readability.
+**Mobile Minimum:** 16px for readability and touch targets.
 
 ## Font Weights
 
@@ -71,25 +53,25 @@ Control text appearance - fonts, sizes, and weights for perfect readability.
 ### Professional
 ```
 Font: Inter
-Product: 16px, Medium (500)
-Price: 18px, Semi-Bold (600)
-Button: 16px, Semi-Bold (600)
+Product: 16px Medium (500)
+Price: 18px Semi-Bold (600)
+Button: 16px Semi-Bold (600)
 ```
 
 ### Bold & Modern
 ```
 Font: Montserrat
-Product: 18px, Semi-Bold (600)
-Price: 22px, Bold (700)
-Button: 17px, Bold (700)
+Product: 18px Semi-Bold (600)
+Price: 22px Bold (700)
+Button: 17px Bold (700)
 ```
 
 ### Minimal & Clean
 ```
 Font: System
-Product: 15px, Regular (400)
-Price: 17px, Medium (500)
-Button: 15px, Medium (500)
+Product: 15px Regular (400)
+Price: 17px Medium (500)
+Button: 15px Medium (500)
 ```
 
 ## Visual Hierarchy
@@ -101,44 +83,26 @@ Price (20px Bold)
     > Button (16px Semi-Bold)
 ```
 
-Creates clear visual flow.
+## Accessibility
 
-## Readability
-
-### Mobile Minimums
-- Body text: 14px
-- Buttons: 16px
-- Touch targets: 44x44px
-
-### Accessibility
-- Normal text: 4.5:1 contrast
+- Normal text: 4.5:1 contrast minimum
 - Large text (18px+): 3:1 contrast
-- Use medium+ weights
-
-## Quick Reference
-
-| Element | Size | Weight |
-|---------|------|--------|
-| Product Name | 16-18px | 500-600 |
-| Price | 18-22px | 600-700 |
-| Button | 16-17px | 600 |
+- Mobile minimum: 14px body, 16px buttons
+- Touch targets: 44x44px minimum
 
 ## Common Mistakes
 
-❌ **Too small** - Hard to read on mobile  
-✅ Minimum 14px
-
-❌ **No hierarchy** - Everything same size  
-✅ Price largest, then product name
-
-❌ **Decorative fonts** - Hard to read  
-✅ Simple, legible fonts
+| ❌ Avoid | ✅ Instead |
+|---------|-----------|
+| Too small on mobile | 16px minimum |
+| No hierarchy | Price largest |
+| Decorative fonts | Simple, legible |
 
 ## Next Steps
 
-- **[Spacing](./spacing.md)** - Layout and padding
-- **[Colors](./colors.md)** - Color palette
-- **[Presets](./presets.md)** - Pre-configured typography
+- [Spacing](./spacing) - Layout and padding
+- [Colors](./colors) - Color palette
+- [Presets](./presets) - Pre-configured typography
 
 ## Font Family
 

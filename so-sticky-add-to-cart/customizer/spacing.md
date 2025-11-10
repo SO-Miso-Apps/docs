@@ -6,7 +6,7 @@ sidebar_position: 6
 
 # Spacing
 
-Control layout, padding, and visual breathing room for polished appearance.
+Control layout, padding, and visual breathing room.
 
 ## Border Radius
 
@@ -25,102 +25,70 @@ Control layout, padding, and visual breathing room for polished appearance.
 
 **Default:** 12px vertical, 16px horizontal
 
-**Small (8-10px):**
-- Compact layout
-- Save space
-- Mobile-focused
-
-**Medium (12-14px):**
-- Standard (recommended)
-- Balanced
-
-**Large (16-18px):**
-- Premium feel
-- Generous space
-- Desktop-focused
+| Size | Values | Best For |
+|------|--------|----------|
+| **Small** | 8-10px | Compact, mobile-focused |
+| **Medium** | 12-14px | Standard (recommended) |
+| **Large** | 16-18px | Premium, desktop-focused |
 
 ## Button Padding
 
 **Default:** 12px vertical, 24px horizontal
 
-### Vertical Padding
-- **8-10px** - Compact
-- **12-14px** - Standard (recommended)
-- **16-18px** - Prominent
+### Vertical: 8-18px
+- **8-10px:** Compact
+- **12-14px:** Standard (recommended)
+- **16-18px:** Prominent
 
-### Horizontal Padding
-- **16-20px** - Narrow
-- **24-28px** - Medium
-- **32-40px** - Wide
+### Horizontal: 16-40px
+- **16-20px:** Narrow
+- **24-28px:** Medium
+- **32-40px:** Wide
 
-**Mobile Tip:** Ensure buttons are min 44x44px for touch targets.
+**Mobile:** Ensure minimum 44x44px touch targets.
 
 ## Element Gap
 
 **Range:** 8-32px
 
-- **8-12px** - Tight, compact
-- **16-20px** - Standard (recommended)
-- **24-32px** - Generous, airy
+- **8-12px:** Tight, compact
+- **16-20px:** Standard (recommended)
+- **24-32px:** Generous, airy
 
 ## Layout Presets
 
 ### Compact
 ```
-Radius: 4px
-Collapsed: 10px / 14px
-Button: 10px / 20px
-Gap: 12px
+Radius: 4px | Collapsed: 10/14px
+Button: 10/20px | Gap: 12px
 ```
 → Mobile-first, space-saving
 
 ### Balanced (Recommended)
 ```
-Radius: 8px
-Collapsed: 12px / 16px
-Button: 12px / 24px
-Gap: 16px
+Radius: 8px | Collapsed: 12/16px
+Button: 12/24px | Gap: 16px
 ```
 → Works for most stores
 
 ### Spacious
 ```
-Radius: 12px
-Collapsed: 16px / 20px
-Button: 14px / 28px
-Gap: 24px
+Radius: 12px | Collapsed: 16/20px
+Button: 14/28px | Gap: 24px
 ```
 → Premium, desktop-focused
-
-### Modern Minimal
-```
-Radius: 0px
-Collapsed: 14px / 18px
-Button: 12px / 26px
-Gap: 20px
-```
-→ Clean, sharp aesthetic
-
-## Best Practices
-
-1. ✅ Match theme spacing
-2. ✅ Ensure 44x44px touch targets
-3. ✅ Test on mobile first
-4. ✅ Adjust in small increments (2-4px)
-5. ✅ Less is often more
 
 ## Accessibility
 
 - Buttons minimum 44x44px
 - Clear visual separation
 - Easy touch targets
-- Adequate spacing for readability
 
 ## Next Steps
 
-- **[Languages](./languages.md)** - Customize text
-- **[Presets](./presets.md)** - Pre-configured layouts
-- **[Effects](./effects.md)** - Button animations
+- [Languages](./languages) - Customize text
+- [Presets](./presets) - Pre-configured layouts
+- [Effects](./effects) - Button animations
 
 ## Border Radius
 

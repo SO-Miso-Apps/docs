@@ -4,31 +4,305 @@ description: Quick answers to frequently asked questions.
 sidebar_position: 3
 ---
 
+---
+title: FAQ
+description: Frequently asked questions about SO Sticky Add-to-Cart.
+sidebar_position: 2
+---
+
 # FAQ
 
 Quick answers to common questions.
 
 ## General
 
-### Does it work with all themes?
+<details>
+<summary><strong>Does it work with all themes?</strong></summary>
 
-**Yes!** Works with all Online Store 2.0 themes. Older themes need updating first.
+Yes. Works with any Shopify theme. Automatically detects and integrates.
 
-### Will it slow my store?
+</details>
 
-**No.** Lightweight (~50KB), async loading, cached after first load. Minimal impact.
+<details>
+<summary><strong>Does it slow down my store?</strong></summary>
 
-### Works with other apps?
+No. Lightweight code with minimal performance impact.
 
-**Yes.** Designed to coexist with other Shopify apps. Contact support if conflicts occur.
+</details>
 
-### Works on mobile?
+<details>
+<summary><strong>What's the difference between Display Types?</strong></summary>
 
-**Absolutely!** Mobile-optimized and responsive. Most customers use it on mobile.
+| Type | Best For | Shows |
+|------|----------|-------|
+| **Collapsed** | Simple products | Price, button only |
+| **Expanded** | Complex products | Full variant selection |
 
-### Can I disable on certain pages?
+</details>
 
-Shows only on product pages. Can disable on desktop via General Settings.
+<details>
+<summary><strong>Can I customize colors?</strong></summary>
+
+Yes. Full control over:
+- Button colors (primary, hover)
+- Text colors
+- Background colors
+- Border colors
+
+</details>
+
+## Mobile
+
+<details>
+<summary><strong>Is it mobile responsive?</strong></summary>
+
+Yes. Optimized for all screen sizes with touch-friendly controls.
+
+</details>
+
+<details>
+<summary><strong>Can I hide it on mobile?</strong></summary>
+
+Yes. Use Display Settings → Device visibility.
+
+</details>
+
+<details>
+<summary><strong>Recommended mobile settings?</strong></summary>
+
+```
+Display: Collapsed
+Font Size: 16px+
+Button: 44x44px minimum
+Spacing: Comfortable (preset default)
+```
+
+</details>
+
+## Features
+
+<details>
+<summary><strong>What's Buy Now button?</strong></summary>
+
+Quick checkout button that skips cart. Optional feature for faster purchases.
+
+</details>
+
+<details>
+<summary><strong>Does it support variants?</strong></summary>
+
+Yes. Shows all product variants with automatic selection.
+
+</details>
+
+<details>
+<summary><strong>Can I change button text?</strong></summary>
+
+Yes. Customize in Languages settings:
+- "Add to Cart"
+- "Add to Bag"
+- "Add to Order"
+- Custom text
+
+</details>
+
+<details>
+<summary><strong>Does it show inventory?</strong></summary>
+
+Yes. Automatically shows when variant is sold out or low stock.
+
+</details>
+
+## Customization
+
+<details>
+<summary><strong>Should I use a preset?</strong></summary>
+
+Yes, recommended. Presets provide:
+- ✅ Optimized settings
+- ✅ Consistent design
+- ✅ Tested configurations
+
+Customize after applying preset.
+
+</details>
+
+<details>
+<summary><strong>How many colors should I use?</strong></summary>
+
+2-3 maximum for cohesive look:
+- Primary button
+- Text
+- Background/border
+
+</details>
+
+<details>
+<summary><strong>Can I match my brand exactly?</strong></summary>
+
+Yes. Use brand colors, fonts, and spacing. Start with closest preset, then adjust.
+
+</details>
+
+<details>
+<summary><strong>What's the best button color?</strong></summary>
+
+Your brand's primary color with 4.5:1 contrast ratio. High contrast = better conversions.
+
+</details>
+
+## Troubleshooting
+
+<details>
+<summary><strong>Sticky cart not appearing?</strong></summary>
+
+Check:
+1. App is enabled
+2. Product page detected
+3. No theme conflicts
+4. Cache cleared
+
+</details>
+
+<details>
+<summary><strong>Button not working?</strong></summary>
+
+1. Check variant selection
+2. Verify stock availability
+3. Test in incognito mode
+4. Check browser console
+
+</details>
+
+<details>
+<summary><strong>Styles not applying?</strong></summary>
+
+1. Clear cache (Ctrl+Shift+R / Cmd+Shift+R)
+2. Check theme CSS conflicts
+3. Verify customizer saved
+4. Disable other cart apps temporarily
+
+</details>
+
+<details>
+<summary><strong>Wrong position on screen?</strong></summary>
+
+Adjust in General Settings → Position:
+- Bottom (recommended)
+- Top
+- Custom offset
+
+</details>
+
+## Performance
+
+<details>
+<summary><strong>How to optimize loading?</strong></summary>
+
+1. Use system fonts
+2. Start with preset
+3. Minimize effects/animations
+4. Use collapsed display
+
+</details>
+
+<details>
+<summary><strong>Does it work with page builders?</strong></summary>
+
+Yes. Compatible with:
+- PageFly
+- Shogun
+- GemPages
+- Others
+
+</details>
+
+## Integration
+
+<details>
+<summary><strong>Works with cart drawer apps?</strong></summary>
+
+Yes. Automatically integrates with popular cart drawers.
+
+</details>
+
+<details>
+<summary><strong>Compatible with review apps?</strong></summary>
+
+Yes. Works with Loox, Judge.me, Yotpo, and others.
+
+</details>
+
+<details>
+<summary><strong>Multi-currency support?</strong></summary>
+
+Yes. Automatically detects and displays currency from your currency app.
+
+</details>
+
+<details>
+<summary><strong>Multi-language support?</strong></summary>
+
+Yes. Customize text in Languages settings for each language.
+
+</details>
+
+## Analytics
+
+<details>
+<summary><strong>Track add-to-cart events?</strong></summary>
+
+Yes. Events automatically sent to:
+- Google Analytics
+- Facebook Pixel
+- Other tracking scripts
+
+</details>
+
+<details>
+<summary><strong>Which metrics to monitor?</strong></summary>
+
+Key metrics:
+- Add-to-cart rate
+- Conversion rate
+- Mobile vs desktop
+- Time on product page
+
+</details>
+
+## Pricing & Support
+
+<details>
+<summary><strong>Is there a free trial?</strong></summary>
+
+Check app listing for current trial details.
+
+</details>
+
+<details>
+<summary><strong>Can I get help with setup?</strong></summary>
+
+Yes. Contact support:
+- Email support
+- Documentation
+- Video tutorials
+
+</details>
+
+<details>
+<summary><strong>How to uninstall?</strong></summary>
+
+See [Uninstall Guide](../uninstall). Removes all app code automatically.
+
+</details>
+
+## Next Steps
+
+- [Troubleshooting](./troubleshooting) - Detailed fixes
+- [Best Practices](./best-practices) - Optimization tips
+- [Customizer](../customizer/customizer-overview) - Full customization
+
+**Still have questions?** Contact support!
 
 ## Customization
 

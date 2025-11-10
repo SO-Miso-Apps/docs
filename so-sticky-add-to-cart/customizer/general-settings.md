@@ -10,89 +10,36 @@ Core display options and functionality controls.
 
 ## Display Type
 
-### Collapsed (Recommended)
-
-**Minimal bar** with essentials only.
-
-**Shows:**
-- Product image
-- Name and price
-- Expands on click
-
-**Best for:**
-- Clean design
-- Simple products
-- Mobile-first stores
-- Minimal variants (1-3 options)
-
-### Expanded
-
-**Full panel** with all details visible.
-
-**Shows:**
-- Product image
-- Full variant selector
-- Both buttons immediately
-
-**Best for:**
-- Complex products
-- Many variants (3+ options)
-- Desktop traffic
-- Quick purchase priority
+| Type | Shows | Best For |
+|------|-------|----------|
+| **Collapsed** | Minimal bar, expands on click | Clean design, simple products, 1-3 variants |
+| **Expanded** | Full panel always visible | Complex products, 3+ variants, desktop traffic |
 
 ## Desktop Visibility
 
-### Enabled (Default)
+| Option | Behavior | Use When |
+|--------|----------|----------|
+| **Enabled** | Shows on all devices | Desktop traffic 30%+, want consistent UX |
+| **Disabled** | Mobile/tablet only | 80%+ mobile traffic, desktop theme works well |
 
-Sticky cart appears on all devices.
-
-**Use when:**
-- Desktop traffic is 30%+
-- Want consistent experience
-- Theme doesn't have good solution
-
-### Disabled
-
-Mobile/tablet only.
-
-**Use when:**
-- 80%+ mobile traffic
-- Desktop theme works great
-- Mobile-only focus
-
-:::tip Check Your Analytics
-Shopify → Analytics → Sessions by device to decide.
+:::tip Check Analytics
+**Shopify → Analytics → Sessions by device** to decide.
 :::
 
 ## Buy Now Button
 
-### Disabled (Default)
-
-Single "Add to Cart" button.
-
-**Best for:**
-- Encouraging browsing
-- Multiple item orders
-- Upselling strategies
-
-### Enabled
-
-Two buttons: "Add to Cart" + "Buy Now"
-
-**Best for:**
-- Impulse purchases
-- Single-item orders
-- Express checkout
-- Quick conversions
+| Option | Buttons | Best For |
+|--------|---------|----------|
+| **Disabled** | Add to Cart only | Encourage browsing, multiple items, upselling |
+| **Enabled** | Add to Cart + Buy Now | Impulse buys, single items, express checkout |
 
 **Behavior:**
-- **Add to Cart** → Keeps shopping
-- **Buy Now** → Direct to checkout
+- **Add to Cart:** Keeps shopping
+- **Buy Now:** Direct to checkout
 
 ## Configuration Examples
 
 ### Fashion Store (Many Variants)
-
 ```
 Display: Expanded
 Desktop: Enabled
@@ -101,7 +48,6 @@ Buy Now: Disabled
 → Show all options, encourage browsing
 
 ### Digital Products
-
 ```
 Display: Collapsed
 Desktop: Enabled
@@ -110,7 +56,6 @@ Buy Now: Enabled
 → Simple, fast purchase
 
 ### Mobile Accessories
-
 ```
 Display: Collapsed
 Desktop: Disabled
@@ -125,24 +70,13 @@ Buy Now: Enabled
 - [ ] Products with variants
 - [ ] Simple products
 - [ ] Button interactions
-- [ ] Cart updates correctly
-
-## Quick Tips
-
-| Goal | Setting |
-|------|---------|
-| Clean interface | Collapsed |
-| Show all options | Expanded |
-| Mobile only | Desktop: OFF |
-| Fast checkout | Buy Now: ON |
-| Encourage browsing | Buy Now: OFF |
+- [ ] Cart updates
 
 ## Next Steps
 
-- **[Colors](./colors.md)** - Brand colors
-- **[Typography](./typography.md)** - Fonts
-- **[Spacing](./spacing.md)** - Layout
-- **[Effects](./effects.md)** - Button animations
+- [Colors](./colors) - Brand colors
+- [Typography](./typography) - Fonts
+- [Spacing](./spacing) - Layout
 
 ## Display Type
 

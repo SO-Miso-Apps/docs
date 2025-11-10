@@ -6,62 +6,44 @@ sidebar_position: 0
 
 # Introduction
 
-Sticky Add-to-Cart keeps your add-to-cart button visible at the bottom of product pages, making it easier for customers to purchase without scrolling.
+Keep your add-to-cart button visible at the bottom of product pages. Customers can purchase without scrolling back up.
 
-## What It Does
+## Core Benefits
 
-A fixed cart bar stays accessible as customers browse product details, images, and reviews. No more scrolling back to find the buy button.
-
-## Key Features
-
-- ✅ **Always Visible** - Fixed at bottom, never scrolls away
-- 🎨 **Variant Selection** - Choose size/color without scrolling up
+- ✅ **Always Visible** - Fixed at bottom, never hidden
+- 🎨 **Variant Selection** - Choose size/color without scrolling
 - 📱 **Mobile Optimized** - Perfect responsive design
-- 🎯 **Buy Now Button** - Express checkout for impulse buys
-- 🌍 **Multi-Language** - Full translation support
-- 💅 **Fully Customizable** - Match your brand perfectly
+- ⚡ **Express Checkout** - Optional Buy Now button
+- 💅 **Fully Customizable** - Match your brand
 
 ## How It Works
-
-```mermaid
-graph LR
-    A[Install] --> B[Customize]
-    B --> C[Preview]
-    C --> D[Deploy]
-```
 
 1. **Install** from Shopify App Store
 2. **Customize** with visual editor
 3. **Preview** in real-time
 4. **Deploy** with one click
 
-## Perfect For
+## Typical Impact
 
-| Store Type | Why It Helps |
-|------------|--------------|
-| **Fashion & Apparel** | Multiple variants (size, color) |
-| **High-Traffic** | Long product descriptions |
-| **Mobile-First** | Improve mobile UX |
-| **Any Store** | Reduce purchase friction |
-
-## Quick Stats
-
-:::info Conversion Impact
 Stores using sticky add-to-cart typically see:
 - 📈 **15-30%** increase in add-to-cart rate
-- ⚡ **Faster** purchase decisions
-- 📱 **Better** mobile experience
-:::
+- ⚡ Faster purchase decisions
+- 📱 Better mobile experience
 
-## Getting Started
+## Best For
 
-Ready to boost conversions?
+- Fashion stores with multiple variants
+- Long product pages
+- Mobile-first stores
+- Any store wanting reduced friction
+
+---
 
 <div className="button-group">
   <a className="button button--primary button--lg" href="./installation">
     Install Now →
   </a>
   <a className="button button--secondary button--lg" href="./quick-start">
-    Quick Start
+    Quick Start Guide
   </a>
 </div>

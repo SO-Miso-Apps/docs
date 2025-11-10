@@ -11,87 +11,68 @@ Maximize conversions with proven optimization strategies.
 ## Design Principles
 
 ### 1. Match Your Brand
-
-**Why:** Consistency builds trust
-
-**How:**
 - Use brand colors for primary button
-- Match theme fonts
-- Keep border radius consistent
-- Align with overall aesthetic
+- Match theme fonts and spacing
+- Maintain consistent aesthetics
 
 ### 2. Mobile First
+**70%+ traffic is mobile**
 
-**Why:** 70%+ traffic is mobile
-
-**Checklist:**
-- [ ] Test on actual devices
-- [ ] Buttons min 44x44px
-- [ ] Text 16px+ for readability
-- [ ] Collapsed view for clean look
-- [ ] Test in bright sunlight
+✅ Checklist:
+- Test on actual devices
+- Buttons min 44x44px
+- Text 16px+ readability
+- Collapsed view for clean look
 
 ### 3. Visual Hierarchy
-
-**Priority order:**
 ```
 Price (20px, Bold)
   > Add to Cart Button (16px, Semi-Bold)
     > Product Name (16px, Medium)
 ```
 
-Use size and weight to guide attention.
-
 ## Conversion Optimization
 
 | Strategy | Impact | Implementation |
 |----------|--------|----------------|
-| **High Contrast Buttons** | 10-15% lift | Brand color, 4.5:1 contrast ratio |
-| **Clear CTA** | 8-12% lift | Action verbs, 2-3 words max |
-| **Reduce Friction** | 15-20% lift | Expanded for complex, collapsed for simple |
-| **Highlight Savings** | 5-10% lift | Red/orange sale price, show % off |
+| High Contrast Buttons | 10-15% | Brand color, 4.5:1 contrast |
+| Clear CTA | 8-12% | Action verbs, 2-3 words |
+| Reduce Friction | 15-20% | Expanded for complex, collapsed for simple |
+| Highlight Savings | 5-10% | Red/orange sale price, show % |
 
 ## Product-Specific Settings
 
-### Simple Products (No Variants)
-
+### Simple Products
 ```
 Display: Collapsed
 Buy Now: Enabled
-Focus: Quick purchase
 ```
-→ Fast checkout, minimal friction
+→ Fast checkout
 
 ### Complex Products (Many Variants)
-
 ```
 Display: Expanded
 Buy Now: Disabled
-Focus: Show all options
 ```
-→ Clear variant selection
+→ Show all options
 
 ### Sale Items
-
 ```
 Display: Any
 Buy Now: Enabled
-Sale Price: Bright (Red/Orange)
+Sale Color: Bright Red/Orange
 Badge: Enabled
 ```
 → Create urgency
 
-## Performance Tips
+## Performance
 
 ### Fast Loading
-
-1. ✅ **Use system fonts** - Instant load
-2. ✅ **Start with preset** - Optimized defaults
-3. ✅ **Minimize customizations** - Keep it simple
+1. Use system fonts (instant load)
+2. Start with preset (optimized)
+3. Minimize customizations
 
 ### Mobile Optimization
-
-**Must-haves:**
 - 44x44px touch targets
 - 16px+ font sizes
 - Comfortable spacing
@@ -99,23 +80,22 @@ Badge: Enabled
 
 ## Testing Strategy
 
-### A/B Test These
+### A/B Test
 
-| Element | Variations |
-|---------|-----------|
+| Element | Test |
+|---------|------|
 | Display Type | Collapsed vs Expanded |
 | Button Color | Brand vs High Contrast |
 | Button Copy | "Add to Cart" vs "Add to Bag" |
 | Buy Now | Enabled vs Disabled |
 
-**Test duration:** 1 week minimum per variation
+**Duration:** 1 week minimum
 
 ### Key Metrics
-
-- 📊 Add-to-cart rate
-- 💰 Conversion rate
-- 📱 Mobile vs desktop performance
-- ⏱️ Time to add to cart
+- Add-to-cart rate
+- Conversion rate
+- Mobile vs desktop
+- Time to add
 
 ## Common Mistakes
 
@@ -123,76 +103,55 @@ Badge: Enabled
 |---------|-----------|
 | Too many colors | 2-3 max |
 | Poor contrast | 4.5:1 minimum |
-| Tiny text on mobile | 16px+ |
-| Over-customization | Start with preset |
-| Ignoring analytics | Test and measure |
+| Tiny text | 16px+ |
+| Over-customization | Use preset |
+| Ignoring analytics | Test & measure |
 
-## Industry Best Practices
+## Industry Settings
 
 ### Fashion & Apparel
 ```
-Display: Expanded (size/color variants)
-Language: "Add to Bag"
-Style: Bold, confident
-Buy Now: Disabled (encourage browsing)
+Display: Expanded | Language: "Add to Bag"
+Style: Bold | Buy Now: OFF
 ```
 
 ### Electronics
 ```
-Display: Collapsed (fewer variants)
-Style: Professional, clean
-Buy Now: Enabled (quick purchase)
+Display: Collapsed | Style: Professional
+Buy Now: ON
 ```
 
 ### Food & Beverage
 ```
-Display: Collapsed
-Language: "Add to Order"
-Style: Appetizing colors
-Buy Now: Enabled
+Display: Collapsed | Language: "Add to Order"
+Buy Now: ON
 ```
 
 ## Quick Wins
 
-Easy changes with big impact:
-
-1. **Match brand color** → 15 min → Instant consistency
-2. **Enable Buy Now** → 2 min → More options
-3. **Apply preset** → 30 sec → Professional look
-4. **Increase price size** → 1 min → Better visibility
-5. **Test mobile** → 5 min → Catch issues
+| Change | Time | Impact |
+|--------|------|--------|
+| Match brand color | 15 min | Instant consistency |
+| Enable Buy Now | 2 min | More options |
+| Apply preset | 30 sec | Professional look |
+| Increase price size | 1 min | Better visibility |
 
 ## Deployment Checklist
 
-Before going live:
-
 - [ ] Colors match brand
 - [ ] Mobile readability verified
-- [ ] Buttons easy to tap (44x44px)
-- [ ] Tested on actual devices
+- [ ] Buttons 44x44px
+- [ ] Tested on devices
 - [ ] Consistent with theme
-- [ ] Clear call-to-action
+- [ ] Clear CTA
 - [ ] Works with variants
-- [ ] Sale prices highlighted
-
-## Continuous Improvement
-
-### Monthly Review
-
-1. Check analytics
-2. Compare conversion rates
-3. Test new configurations
-4. Gather customer feedback
-5. Make incremental improvements
 
 ## Next Steps
 
-- **[Troubleshooting](./troubleshooting.md)** - Fix issues
-- **[FAQ](./faq.md)** - Quick answers
-- Track your metrics
-- Test and iterate
+- [Troubleshooting](./troubleshooting) - Fix issues
+- [FAQ](./faq) - Quick answers
 
-**Remember:** The best configuration converts. Test, measure, optimize!
+**Remember:** Test, measure, optimize!
 
 ## Design Best Practices
 
