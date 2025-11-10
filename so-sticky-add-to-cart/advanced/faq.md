@@ -159,7 +159,7 @@ Use Shopify or Google Analytics:
 
 ### How to get help?
 
-**Email:** support@stickyaddtocart.com
+**Email:** hi@misoapps.com
 
 **Include:**
 - Store URL
@@ -181,7 +181,7 @@ Usually < 24 hours, often faster for urgent issues.
 3. On product page
 4. Desktop visibility enabled (if desktop)
 
-See [Troubleshooting](./troubleshooting) for details.
+See [Troubleshooting](./troubleshooting.md) for details.
 
 ### Changes not appearing?
 
@@ -269,9 +269,9 @@ Most apps compatible. Contact support if conflicts occur.
 
 ## Still Have Questions?
 
-1. Check [Troubleshooting](./troubleshooting)
+1. Check [Troubleshooting](./troubleshooting.md)
 2. Review [Documentation](/)
-3. Email: support@stickyaddtocart.com
+3. Email: hi@misoapps.com
 
 We're here to help!
 
@@ -467,7 +467,7 @@ Use Shopify Analytics or Google Analytics to track:
 
 ### How do I get help?
 
-**Email:** support@stickyaddtocart.com
+**Email:** hi@misoapps.com
 
 **Include:**
 - Store URL
@@ -599,7 +599,7 @@ Check the app dashboard for announcements about new features and improvements.
 **Can't find your answer?**
 
 1. Check [Troubleshooting](./troubleshooting.md)
-2. Review full [Documentation](./introduction.md)
-3. Contact support: support@stickyaddtocart.com
+2. Review full [Documentation](../getting-started/introduction.md)
+3. Contact support: hi@misoapps.com
 
 We're here to help!

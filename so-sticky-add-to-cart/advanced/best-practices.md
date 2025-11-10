@@ -187,8 +187,8 @@ Before going live:
 
 ## Next Steps
 
-- **[Troubleshooting](./troubleshooting)** - Fix issues
-- **[FAQ](./faq)** - Quick answers
+- **[Troubleshooting](./troubleshooting.md)** - Fix issues
+- **[FAQ](./faq.md)** - Quick answers
 - Track your metrics
 - Test and iterate
 

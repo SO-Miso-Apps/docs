@@ -103,7 +103,7 @@ Track new features, improvements, and bug fixes.
 
 ### Feature Requests
 
-Have an idea? Email: support@stickyaddtocart.com
+Have an idea? Email: hi@misoapps.com
 
 ---
 
@@ -125,6 +125,6 @@ Have an idea? Email: support@stickyaddtocart.com
 
 ## Need Help?
 
-- **[Troubleshooting](./troubleshooting)** - Fix issues
-- **[FAQ](./faq)** - Quick answers
-- **Email:** support@stickyaddtocart.com
+- **[Troubleshooting](./advanced/troubleshooting.md)** - Fix issues
+- **[FAQ](./advanced/faq.md)** - Quick answers
+- **Email:** hi@misoapps.com

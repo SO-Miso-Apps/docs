@@ -161,9 +161,9 @@ Add to Library | Get Instant Access | Select License
 
 ## Next Steps
 
-- **[Presets](./presets)** - Complete configurations
-- **[Best Practices](../advanced/best-practices)** - Optimization
-- **[Troubleshooting](../advanced/troubleshooting)** - Fix issues
+- **[Presets](./presets.md)** - Complete configurations
+- **[Best Practices](../advanced/best-practices.md)** - Optimization
+- **[Troubleshooting](../advanced/troubleshooting.md)** - Fix issues
 
 ## Customizable Text
 
@@ -495,7 +495,7 @@ Out of Stock
 ## Next Steps
 
 - [Presets](./presets.md) - Try complete configurations
-- [Best Practices](./best-practices.md) - Optimization tips
-- [Troubleshooting](./troubleshooting.md) - Fix issues
+- [Best Practices](../advanced/best-practices.md) - Optimization tips
+- [Troubleshooting](../advanced/troubleshooting.md) - Fix issues
 
 Clear, concise language improves conversions and creates a better customer experience!

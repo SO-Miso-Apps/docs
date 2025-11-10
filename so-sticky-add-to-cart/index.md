@@ -1,7 +1,6 @@
 ---
-id: intro
+id: index
 title: Introduction
-slug: /
 sidebar_position: 1
 ---
 
@@ -12,10 +11,10 @@ Boost your Shopify store conversions with an always-visible add-to-cart bar that
 ## Quick Links
 
 <div className="button-group">
-  <a className="button button--primary button--lg" href="getting-started/installation">
+  <a className="button button--primary button--lg" href="./getting-started/installation">
     Get Started →
   </a>
-  <a className="button button--secondary button--lg" href=customizer/customizer-overview">
+  <a className="button button--secondary button--lg" href="./customizer/customizer-overview">
     Customize
   </a>
 </div>
@@ -53,7 +52,7 @@ Best practices, troubleshooting, and optimization tips.
 
 ## Popular Guides
 
-- [Customizer Overview](customizer/customizer-overview) - Master the visual customizer
-- [Preset Themes](customizer/presets) - Apply ready-made designs
-- [Wishlist Integration](customizer/integrations) - Connect wishlist apps
-- [Troubleshooting](advanced/troubleshooting) - Fix common issues
+- [Customizer Overview](./customizer/customizer-overview) - Master the visual customizer
+- [Preset Themes](./customizer/presets) - Apply ready-made designs
+- [Wishlist Integration](./customizer/integrations) - Connect wishlist apps
+- [Troubleshooting](./advanced/troubleshooting) - Fix common issues

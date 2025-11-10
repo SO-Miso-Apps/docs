@@ -228,7 +228,7 @@ Theme Customizer → Add Sticky Add to Cart block → Save
 
 ### Contact
 
-**Email:** support@stickyaddtocart.com
+**Email:** hi@misoapps.com
 
 **Include:**
 - Store URL
@@ -250,7 +250,7 @@ Theme Customizer → Add Sticky Add to Cart block → Save
 
 ## Still Stuck?
 
-- Check **[FAQ](./faq)** for more answers
+- Check **[FAQ](./faq.md)** for more answers
 - Review documentation
 - Contact support - we're here to help!
 
@@ -563,7 +563,7 @@ Gather this information:
 
 ### Contact Support
 
-**Email:** support@stickyaddtocart.com
+**Email:** hi@misoapps.com
 
 **Include:**
 - Store URL

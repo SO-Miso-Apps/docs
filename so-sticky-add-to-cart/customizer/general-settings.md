@@ -139,10 +139,10 @@ Buy Now: Enabled
 
 ## Next Steps
 
-- **[Colors](./colors)** - Brand colors
-- **[Typography](./typography)** - Fonts
-- **[Spacing](./spacing)** - Layout
-- **[Effects](./effects)** - Button animations
+- **[Colors](./colors.md)** - Brand colors
+- **[Typography](./typography.md)** - Fonts
+- **[Spacing](./spacing.md)** - Layout
+- **[Effects](./effects.md)** - Button animations
 
 ## Display Type
 

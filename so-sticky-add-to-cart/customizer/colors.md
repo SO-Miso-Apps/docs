@@ -141,9 +141,9 @@ Sale: #D32F2F (Muted Red)
 
 ## Next Steps
 
-- **[Typography](./typography)** - Fonts and sizes
-- **[Spacing](./spacing)** - Layout
-- **[Presets](./presets)** - Pre-made palettes
+- **[Typography](./typography.md)** - Fonts and sizes
+- **[Spacing](./spacing.md)** - Layout
+- **[Presets](./presets.md)** - Pre-made palettes
 
 ## Button Colors
 
@@ -495,6 +495,6 @@ Badge Text: #FFFFFF (White)
 - [Typography](./typography.md) - Set fonts and sizes
 - [Spacing](./spacing.md) - Adjust layout
 - [Presets](./presets.md) - Try pre-made color schemes
-- [Best Practices](./best-practices.md) - Design tips
+- [Best Practices](../advanced/best-practices.md) - Design tips
 
 Your color choices create the first impression and drive action - choose wisely!

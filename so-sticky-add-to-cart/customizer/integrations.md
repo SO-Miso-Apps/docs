@@ -44,7 +44,7 @@ More wishlist apps support planned:
 - Wishlist Hero
 - Smart Wishlist
 
-**Request support:** Email support@stickyaddtocart.com
+**Request support:** Email hi@misoapps.com
 
 ## Review Apps
 
@@ -164,7 +164,7 @@ Standard Shopify event tracking works seamlessly.
 
 Want specific app support?
 
-**Email:** support@stickyaddtocart.com  
+**Email:** hi@misoapps.com  
 **Include:**
 - App name and URL
 - How you'd use integration
@@ -253,7 +253,7 @@ Done! Wishlist button now appears in sticky cart.
 Want to build custom integration?
 
 **Developer docs:** Coming soon  
-**Contact:** support@stickyaddtocart.com
+**Contact:** hi@misoapps.com
 
 We can help with:
 - Custom app integrations

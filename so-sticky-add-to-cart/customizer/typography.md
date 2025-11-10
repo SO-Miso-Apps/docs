@@ -136,9 +136,9 @@ Creates clear visual flow.
 
 ## Next Steps
 
-- **[Spacing](./spacing)** - Layout and padding
-- **[Colors](./colors)** - Color palette
-- **[Presets](./presets)** - Pre-configured typography
+- **[Spacing](./spacing.md)** - Layout and padding
+- **[Colors](./colors.md)** - Color palette
+- **[Presets](./presets.md)** - Pre-configured typography
 
 ## Font Family
 

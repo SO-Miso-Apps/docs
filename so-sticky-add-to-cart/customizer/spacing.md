@@ -118,9 +118,9 @@ Gap: 20px
 
 ## Next Steps
 
-- **[Languages](./languages)** - Customize text
-- **[Presets](./presets)** - Pre-configured layouts
-- **[Effects](./effects)** - Button animations
+- **[Languages](./languages.md)** - Customize text
+- **[Presets](./presets.md)** - Pre-configured layouts
+- **[Effects](./effects.md)** - Button animations
 
 ## Border Radius
 
@@ -351,4 +351,4 @@ Element Gap: 20px
 
 - [Languages](./languages.md) - Customize text
 - [Presets](./presets.md) - Try pre-configured layouts
-- [Best Practices](./best-practices.md) - Design tips
+- [Best Practices](../advanced/best-practices.md) - Design tips
