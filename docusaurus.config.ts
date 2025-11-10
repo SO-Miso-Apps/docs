@@ -30,11 +30,8 @@ const config: Config = {
       'classic',
       {
         docs: {
-          // path: 'xo-image-styles',
-          // routeBasePath: 'xo-image-styles',
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          // sidebarPath: require.resolve('./sidebarsImageStyles.js'),
         },
         blog: false,
         pages: false,
@@ -112,7 +109,7 @@ const config: Config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} XB, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Miso Apps, Inc.`,
       },
       prism: {
         theme: prismThemes.github,
