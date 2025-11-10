@@ -1,55 +1,130 @@
 ---
-sidebar_position: 18
+title: Changelog
+description: Version history and updates.
+sidebar_position: 4
 ---
 
 # Changelog
-## 1.3.5 <small>(November 3, 2025)</small>
-#### Update features
-  - Import wishlist from any file CSV
 
-## 1.3.1 <small>(April 21, 2025)</small>
-#### Fix bug
-  - Fix bug when add product to wishlist
+Track new features, improvements, and bug fixes.
 
-## 1.2.5 <small>(May 08, 2025)</small>
+## Version 1.2.0 (Latest)
 
-## 1.2.4 <small>(March 25, 2025)</small>
-#### Update features
-  - Customize button for developers
-  - Enable "Add to wishlist" when out of stock
+**Release Date:** November 2025
 
-## 1.2.3 <small>(February 02, 2025)</small>
-#### Fix bugs
-  - Custom code settings
+### ✨ New Features
 
-## 1.2.2 <small>(January 27, 2025)</small>
+- **25 Preset Themes** - Expanded from 10 to 25 professional themes
+  - Midnight Dark, Cherry Blossom, Fresh Mint
+  - Neon Glow, Cyberpunk, Lavender Fields
+  - And 15 more unique combinations
 
-#### Improve
-  - Update language settings
-  - Add empty wishlist image
-#### Fix bugs
-  - Url of wishlist page is now correct
+- **8 Button Effects** - Premium animations
+  - Pulse, Glow, Ripple, Scale
+  - Shine, Bounce, Slide, None
 
-## 1.2.1 <small>(December 25, 2024)</small>
+- **Wishlist Integration** - Connect with popular apps
+  - XB Wishlist support
+  - More integrations coming
 
-#### Fix bugs
-  - Wishlist icon adding incorrect product status
-  - Wishlist icon not functioning on mobile devices
-  - Webhook not working
+### 🚀 Improvements
 
-## 1.2.0 <small>(December 12, 2024)</small>
+- **Performance** - 30% faster load time
+- **Mobile UX** - Enhanced touch targets
+- **Preview** - Real-time updates smoother
 
-#### Update features
-  - Update wishlist count
+### 🐛 Bug Fixes
 
-## 1.0.0 <small>(September 24, 2024)</small>
+- Fixed variant sync on iOS Safari
+- Improved cache handling
+- Better error messages
 
-#### New features
-  - Customize button for developers
-  - Add shortcode to page
+---
 
-## 1.0.0 <small>(August 30, 2024)</small>
+## Version 1.1.0
 
-Realease 1.0
+**Release Date:** October 2025
 
+### ✨ New Features
 
+- **Effects Tab** - Button animations
+- **Integrations Tab** - Third-party app support
+- **Desktop Toggle** - Show/hide on desktop
+
+### 🚀 Improvements
+
+- Faster customizer loading
+- Better mobile preview
+- Enhanced error handling
+
+### 🐛 Bug Fixes
+
+- Fixed preview refresh issues
+- Improved font loading
+- Better theme compatibility
+
+---
+
+## Version 1.0.0
+
+**Release Date:** September 2025
+
+### 🎉 Initial Release
+
+**Core Features:**
+- Visual customizer with live preview
+- 10 preset themes
+- Full color customization
+- Typography controls
+- Spacing adjustments
+- Multi-language support
+- Mobile-first responsive design
+- Buy Now button
+- Variant selection
+- Real-time variant sync
+
+**Supported:**
+- All Online Store 2.0 themes
+- Mobile and desktop
+- Multiple currencies
+- Shopify Markets
+
+---
+
+## Coming Soon
+
+### Planned Features
+
+- 🔄 **More Integrations** - Additional wishlist and review apps
+- 🎨 **Custom Effects** - Create your own button animations
+- 📊 **Analytics Dashboard** - Built-in conversion tracking
+- 🌍 **Auto-Translation** - Automatic language detection
+- 🎭 **A/B Testing** - Built-in testing tools
+
+### Feature Requests
+
+Have an idea? Email: support@stickyaddtocart.com
+
+---
+
+## Update Process
+
+**All updates are automatic:**
+- No manual action required
+- Customizations preserved
+- New features available immediately
+- Check app dashboard for announcements
+
+## Version Support
+
+**Latest version:** Always recommended  
+**Previous versions:** Supported for 3 months after new release  
+**Legacy support:** Contact support for custom needs
+
+---
+
+## Need Help?
+
+- **[Troubleshooting](./troubleshooting)** - Fix issues
+- **[FAQ](./faq)** - Quick answers
+- **Email:** support@stickyaddtocart.com
