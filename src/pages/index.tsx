@@ -17,19 +17,11 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <p className="hero__subtitle hero__subtitle-detail">
-          Powerful, user-friendly Shopify applications to optimize operations, enhance customer experience, and drive revenue growth.
-        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/apps">
-            Explore Our Apps →
-          </Link>
-          <Link
-            className="button button--outline button--secondary button--lg"
-            to="/about">
-            Learn More
+            to="/docs/intro">
+            Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div>
       </div>
@@ -41,8 +33,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={siteConfig.title}
-      description="App Solutions for E-commerce Growth. Miso Apps specializes in developing applications exclusively for the Shopify platform.">
+      title={`Hello from ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
