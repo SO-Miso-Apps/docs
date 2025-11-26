@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -53,69 +53,85 @@ const config: Config = {
         // ... other options
       },
     ],
-  ],
-
-  themes: [
-    // ... Your other themes.
     [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
+      '@docusaurus/plugin-content-docs',
       {
-        indexBlog: false,
-        docsRouteBasePath: "/",
-        searchContextByPaths: [
-          {
-            label: "SO: Sticky Add to Cart",
-            path: "so-sticky-add-to-cart",
-          },
-        ],
-        hideSearchBarWithNoSearchContext: true,
-        explicitSearchResultPath: true,
-        language: "en",
-        ignoreFiles: [/changelog/],
-        // `hashed` is recommended as long-term-cache of index file is possible.
-        // hashed: true,
+        id: 'so-llmstxt',
+        path: 'so-llmstxt',
+        routeBasePath: 'so-llmstxt',
+        sidebarPath: './sidebars.ts',
+        // ... other options
       },
     ],
   ],
 
-  themeConfig:
-    ({
-      navbar: {
-        title: 'Miso Docs',
-        logo: {
-          alt: 'Miso Apps',
-          src: 'img/logo.svg',
+themes: [
+  // ... Your other themes.
+  [
+    require.resolve("@easyops-cn/docusaurus-search-local"),
+    {
+      indexBlog: false,
+      docsRouteBasePath: "/",
+      searchContextByPaths: [
+        {
+          label: "SO: Sticky Add to Cart",
+          path: "so-sticky-add-to-cart",
         },
+      ],
+      hideSearchBarWithNoSearchContext: true,
+      explicitSearchResultPath: true,
+      language: "en",
+      ignoreFiles: [/changelog/],
+      // `hashed` is recommended as long-term-cache of index file is possible.
+      // hashed: true,
+    },
+  ],
+],
+
+  themeConfig:
+({
+  navbar: {
+    title: 'Miso Docs',
+    logo: {
+      alt: 'Miso Apps',
+      src: 'img/logo.svg',
+    },
+    items: [
+      {
+        type: 'dropdown',
+        label: 'Apps',
+        position: 'left',
         items: [
           {
-            type: 'dropdown',
-            label: 'Apps',
-            position: 'left',
-            items: [
-              {
-                type: 'doc',
-                docId: 'index',
-                docsPluginId: 'so-sticky-add-to-cart',
-                label: 'SO: Sticky Add to Cart',
-              },
-            ],
+            type: 'doc',
+            docId: 'index',
+            docsPluginId: 'so-sticky-add-to-cart',
+            label: 'SO: Sticky Add to Cart',
           },
           {
-            href: 'https://misoapps.com/',
-            label: 'Miso Apps',
-            position: 'right',
+            type: 'doc',
+            docId: 'index',
+            docsPluginId: 'so-llmstxt',
+            label: 'SO: llms.txt',
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Miso Apps, Inc.`,
+      {
+        href: 'https://misoapps.com/',
+        label: 'Miso Apps',
+        position: 'right',
       },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
+    ],
+  },
+  footer: {
+    style: 'dark',
+    copyright: `Copyright © ${new Date().getFullYear()} Miso Apps, Inc.`,
+  },
+  prism: {
+    theme: prismThemes.github,
+    darkTheme: prismThemes.dracula,
+  },
+}),
 };
 
 module.exports = config;
