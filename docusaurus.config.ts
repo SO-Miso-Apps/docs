@@ -63,6 +63,16 @@ const config: Config = {
         // ... other options
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'so-auto-tag-cogs',
+        path: 'so-auto-tag-cogs',
+        routeBasePath: 'so-auto-tag-cogs',
+        sidebarPath: './sidebars.ts',
+        // ... other options
+      },
+    ],
   ],
 
 themes: [
@@ -113,6 +123,12 @@ themes: [
             docId: 'index',
             docsPluginId: 'so-llmstxt',
             label: 'SO: llms.txt',
+          },
+          {
+            type: 'doc',
+            docId: 'index',
+            docsPluginId: 'so-auto-tag-cogs',
+            label: 'SO: Auto Tag & COGS',
           },
         ],
       },
