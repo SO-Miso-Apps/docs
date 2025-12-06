@@ -1,7 +1,8 @@
 ---
 id: index
-title: User Guide
-sidebar_label: User Guide
+title: Get started
+sidebar_label: Get started
+sidebar_position: 0
 ---
 
 # 📘 SO: Auto Tag & COGS User Guide
