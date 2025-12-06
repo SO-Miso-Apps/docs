@@ -1,3 +1,4 @@
+---
 id: dashboard
 title: Dashboard & AI Advisor
 sidebar_label: Dashboard

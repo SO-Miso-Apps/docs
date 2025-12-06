@@ -1,3 +1,4 @@
+---
 id: data-cleaner
 title: Data Cleaner
 sidebar_label: Data Cleaner

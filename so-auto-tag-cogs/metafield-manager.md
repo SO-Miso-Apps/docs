@@ -1,3 +1,4 @@
+---
 id: metafield-manager
 title: Metafield Manager - Custom Data Management
 sidebar_label: Metafield Manager

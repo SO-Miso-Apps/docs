@@ -1,3 +1,4 @@
+---
 id: pricing
 title: Pricing & Plans
 sidebar_label: Pricing

@@ -1,3 +1,4 @@
+---
 id: bulk-operations
 title: Bulk Operations
 sidebar_label: Bulk Operations
