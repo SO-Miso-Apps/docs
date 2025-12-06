@@ -1,7 +1,7 @@
----
 id: smart-tagger
 title: Smart Tagger - Tag Automation
 sidebar_label: Smart Tagger
+sidebar_position: 2
 ---
 
 # Smart Tagger - Tag Automation

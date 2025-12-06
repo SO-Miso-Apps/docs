@@ -1,7 +1,7 @@
----
 id: pricing
 title: Pricing & Plans
 sidebar_label: Pricing
+sidebar_position: 8
 ---
 
 # Pricing & Plans

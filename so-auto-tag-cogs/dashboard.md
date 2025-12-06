@@ -1,7 +1,7 @@
----
 id: dashboard
 title: Dashboard & AI Advisor
 sidebar_label: Dashboard
+sidebar_position: 1
 ---
 
 # Dashboard & AI Advisor

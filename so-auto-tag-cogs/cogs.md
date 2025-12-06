@@ -1,7 +1,7 @@
----
 id: cogs
 title: COGS & Profit Tracking
 sidebar_label: COGS & Profit
+sidebar_position: 4
 ---
 
 # COGS & Profit Tracking

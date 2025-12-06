@@ -1,7 +1,7 @@
----
 id: activity-log
 title: Activity Log & Revert
 sidebar_label: Activity Log
+sidebar_position: 7
 ---
 
 # Activity Log & Revert
