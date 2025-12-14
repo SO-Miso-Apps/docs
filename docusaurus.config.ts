@@ -66,88 +66,88 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'so-auto-tag-cogs',
-        path: 'so-auto-tag-cogs',
-        routeBasePath: 'so-auto-tag-cogs',
+        id: 'so-auto-tags',
+        path: 'so-auto-tags',
+        routeBasePath: 'so-auto-tags',
         sidebarPath: './sidebars.ts',
         // ... other options
       },
     ],
   ],
 
-themes: [
-  // ... Your other themes.
-  [
-    require.resolve("@easyops-cn/docusaurus-search-local"),
-    {
-      indexBlog: false,
-      docsRouteBasePath: "/",
-      searchContextByPaths: [
-        {
-          label: "SO: Sticky Add to Cart",
-          path: "so-sticky-add-to-cart",
-        },
-      ],
-      hideSearchBarWithNoSearchContext: true,
-      explicitSearchResultPath: true,
-      language: "en",
-      ignoreFiles: [/changelog/],
-      // `hashed` is recommended as long-term-cache of index file is possible.
-      // hashed: true,
-    },
+  themes: [
+    // ... Your other themes.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        indexBlog: false,
+        docsRouteBasePath: "/",
+        searchContextByPaths: [
+          {
+            label: "SO: Sticky Add to Cart",
+            path: "so-sticky-add-to-cart",
+          },
+        ],
+        hideSearchBarWithNoSearchContext: true,
+        explicitSearchResultPath: true,
+        language: "en",
+        ignoreFiles: [/changelog/],
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        // hashed: true,
+      },
+    ],
   ],
-],
 
   themeConfig:
-({
-  navbar: {
-    title: 'Miso Docs',
-    logo: {
-      alt: 'Miso Apps',
-      src: 'img/logo.svg',
-    },
-    items: [
-      {
-        type: 'dropdown',
-        label: 'Apps',
-        position: 'left',
+    ({
+      navbar: {
+        title: 'Miso Docs',
+        logo: {
+          alt: 'Miso Apps',
+          src: 'img/logo.svg',
+        },
         items: [
           {
-            type: 'doc',
-            docId: 'index',
-            docsPluginId: 'so-sticky-add-to-cart',
-            label: 'SO: Sticky Add to Cart',
+            type: 'dropdown',
+            label: 'Apps',
+            position: 'left',
+            items: [
+              {
+                type: 'doc',
+                docId: 'index',
+                docsPluginId: 'so-sticky-add-to-cart',
+                label: 'SO: Sticky Add to Cart',
+              },
+              {
+                type: 'doc',
+                docId: 'index',
+                docsPluginId: 'so-llmstxt',
+                label: 'SO: llms.txt',
+              },
+              {
+                type: 'doc',
+                docId: 'index',
+                docsPluginId: 'so-auto-tags',
+                label: 'SO: Auto Tags | All-in-One',
+              },
+            ],
           },
           {
-            type: 'doc',
-            docId: 'index',
-            docsPluginId: 'so-llmstxt',
-            label: 'SO: llms.txt',
-          },
-          {
-            type: 'doc',
-            docId: 'index',
-            docsPluginId: 'so-auto-tag-cogs',
-            label: 'SO: Auto Tag & COGS',
+            href: 'https://misoapps.com/',
+            label: 'Miso Apps',
+            position: 'right',
           },
         ],
       },
-      {
-        href: 'https://misoapps.com/',
-        label: 'Miso Apps',
-        position: 'right',
+      footer: {
+        style: 'dark',
+        copyright: `Copyright © ${new Date().getFullYear()} Miso Apps, Inc.`,
       },
-    ],
-  },
-  footer: {
-    style: 'dark',
-    copyright: `Copyright © ${new Date().getFullYear()} Miso Apps, Inc.`,
-  },
-  prism: {
-    theme: prismThemes.github,
-    darkTheme: prismThemes.dracula,
-  },
-}),
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
+    }),
 };
 
 module.exports = config;

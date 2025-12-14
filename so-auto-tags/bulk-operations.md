@@ -2,7 +2,7 @@
 id: bulk-operations
 title: Bulk Operations
 sidebar_label: Bulk Operations
-sidebar_position: 5
+sidebar_position: 3
 ---
 
 # Bulk Operations

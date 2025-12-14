@@ -2,7 +2,7 @@
 id: data-cleaner
 title: Data Cleaner
 sidebar_label: Data Cleaner
-sidebar_position: 6
+sidebar_position: 4
 ---
 
 # Data Cleaner
