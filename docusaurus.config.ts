@@ -73,24 +73,38 @@ const config: Config = {
         // ... other options
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'so-ai-blog-seo',
+        path: 'so-ai-blog-seo',
+        routeBasePath: 'so-ai-blog-seo',
+        sidebarPath: './sidebars.ts',
+        // ... other options
+      },
+    ],
   ],
 
   themes: [
     // ... Your other themes.
     [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
+      require.resolve('@easyops-cn/docusaurus-search-local'),
       {
         indexBlog: false,
-        docsRouteBasePath: "/",
+        docsRouteBasePath: '/',
         searchContextByPaths: [
           {
-            label: "SO: Sticky Add to Cart",
-            path: "so-sticky-add-to-cart",
+            label: 'SO: Sticky Add to Cart',
+            path: 'so-sticky-add-to-cart',
+          },
+          {
+            label: 'SO: AI Blog SEO',
+            path: 'so-ai-blog-seo',
           },
         ],
         hideSearchBarWithNoSearchContext: true,
         explicitSearchResultPath: true,
-        language: "en",
+        language: 'en',
         ignoreFiles: [/changelog/],
         // `hashed` is recommended as long-term-cache of index file is possible.
         // hashed: true,
@@ -129,6 +143,12 @@ const config: Config = {
                 docId: 'index',
                 docsPluginId: 'so-auto-tags',
                 label: 'SO: Auto Tags | All-in-One',
+              },
+              {
+                type: 'doc',
+                docId: 'index',
+                docsPluginId: 'so-ai-blog-seo',
+                label: 'SO: AI Blog SEO',
               },
             ],
           },

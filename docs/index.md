@@ -14,3 +14,4 @@ We've put together some helpful guides for you to get set up with our product qu
 - [SO: Sticky Add to Cart](/so-sticky-add-to-cart)
 - [SO: llms.txt](/so-llmstxt)
 - [SO: Auto Tags | All-in-One](/so-auto-tags)
+- [SO: AI Blog SEO](/so-ai-blog-seo)
