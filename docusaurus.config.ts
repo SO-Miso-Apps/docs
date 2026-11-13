@@ -1,12 +1,16 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import { writeFile } from 'node:fs/promises';
+import { join } from 'node:path';
 
 const config: Config = {
   title: 'Miso Docs',
   tagline: 'Shopify apps documentation',
   url: 'https://docs.misoapps.com',
   baseUrl: '/',
+  // One URL per page: every page, link and canonical ends in "/".
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   favicon: 'img/logo.svg',
 
@@ -43,6 +47,17 @@ const config: Config = {
   ],
 
   plugins: [
+    // Cloudflare assets answer a slashless URL with a 307; list a 301 for
+    // every page instead so crawlers treat the "/" form as the only one.
+    () => ({
+      name: 'trailing-slash-redirects',
+      async postBuild({ outDir, routesPaths }) {
+        const rules = [...new Set(routesPaths)]
+          .filter((path) => path.length > 1 && path.endsWith('/'))
+          .map((path) => `${path.slice(0, -1)} ${path} 301`);
+        await writeFile(join(outDir, '_redirects'), `${rules.join('\n')}\n`);
+      },
+    }),
     [
       '@docusaurus/plugin-content-docs',
       {

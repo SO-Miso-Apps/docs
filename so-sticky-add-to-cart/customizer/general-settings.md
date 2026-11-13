@@ -74,9 +74,9 @@ Buy Now: Enabled
 
 ## Next Steps
 
-- [Colors](./colors) - Brand colors
-- [Typography](./typography) - Fonts
-- [Spacing](./spacing) - Layout
+- [Colors](./colors.md) - Brand colors
+- [Typography](./typography.md) - Fonts
+- [Spacing](./spacing.md) - Layout
 
 ## Display Type
 

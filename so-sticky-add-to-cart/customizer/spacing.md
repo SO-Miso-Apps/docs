@@ -86,9 +86,9 @@ Button: 14/28px | Gap: 24px
 
 ## Next Steps
 
-- [Languages](./languages) - Customize text
-- [Presets](./presets) - Pre-configured layouts
-- [Effects](./effects) - Button animations
+- [Languages](./languages.md) - Customize text
+- [Presets](./presets.md) - Pre-configured layouts
+- [Effects](./effects.md) - Button animations
 
 ## Border Radius
 

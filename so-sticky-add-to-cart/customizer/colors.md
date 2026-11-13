@@ -108,6 +108,6 @@ Sale: #D32F2F
 
 ## Next Steps
 
-- [Typography](./typography) - Fonts and sizes
-- [Spacing](./spacing) - Layout
-- [Presets](./presets) - Pre-made palettes
+- [Typography](./typography.md) - Fonts and sizes
+- [Spacing](./spacing.md) - Layout
+- [Presets](./presets.md) - Pre-made palettes

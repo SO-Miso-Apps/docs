@@ -128,7 +128,7 @@ Try different presets weekly and compare conversion rates.
 
 ## Next Steps
 
-- [Colors](./colors) - Fine-tune
-- [Typography](./typography) - Adjust fonts
-- [Spacing](./spacing) - Tweak layout
-- [General](./general-settings) - Display options
+- [Colors](./colors.md) - Fine-tune
+- [Typography](./typography.md) - Adjust fonts
+- [Spacing](./spacing.md) - Tweak layout
+- [General](./general-settings.md) - Display options
