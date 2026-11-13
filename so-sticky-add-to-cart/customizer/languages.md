@@ -115,6 +115,6 @@ Add to Library | Get Instant Access | Select License
 
 ## Next Steps
 
-- [Presets](./presets) - Complete configurations
-- [Best Practices](../advanced/best-practices) - Optimization
-- [Troubleshooting](../advanced/troubleshooting) - Fix issues
+- [Presets](./presets.md) - Complete configurations
+- [Best Practices](../advanced/best-practices.md) - Optimization
+- [Troubleshooting](../advanced/troubleshooting.md) - Fix issues

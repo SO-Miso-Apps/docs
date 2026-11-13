@@ -127,6 +127,6 @@ Effect: Ripple/Bounce | Colors: Fun | Typography: Rounded
 
 ## Next Steps
 
-- [Colors](./colors) - Match effect with colors
-- [Typography](./typography) - Complement fonts
-- [Best Practices](../advanced/best-practices) - Optimize
+- [Colors](./colors.md) - Match effect with colors
+- [Typography](./typography.md) - Complement fonts
+- [Best Practices](../advanced/best-practices.md) - Optimize

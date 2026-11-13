@@ -89,7 +89,7 @@ Preview & Test → Save & Deploy
 
 ## Next Steps
 
-- [General Settings](./general-settings) - Display options
-- [Colors](./colors) - Brand colors
-- [Typography](./typography) - Fonts
-- [Spacing](./spacing) - Layout
+- [General Settings](./general-settings.md) - Display options
+- [Colors](./colors.md) - Brand colors
+- [Typography](./typography.md) - Fonts
+- [Spacing](./spacing.md) - Layout

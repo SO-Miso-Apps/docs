@@ -148,8 +148,8 @@ Buy Now: ON
 
 ## Next Steps
 
-- [Troubleshooting](./troubleshooting) - Fix issues
-- [FAQ](./faq) - Quick answers
+- [Troubleshooting](./troubleshooting.md) - Fix issues
+- [FAQ](./faq.md) - Quick answers
 
 **Remember:** Test, measure, optimize!
 

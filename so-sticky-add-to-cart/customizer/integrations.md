@@ -141,6 +141,6 @@ Popular requests prioritized!
 
 ## Next Steps
 
-- [Effects](./effects) - Add animations
-- [Best Practices](../advanced/best-practices) - Optimize
-- [Troubleshooting](../advanced/troubleshooting) - Fix issues
+- [Effects](./effects.md) - Add animations
+- [Best Practices](../advanced/best-practices.md) - Optimize
+- [Troubleshooting](../advanced/troubleshooting.md) - Fix issues

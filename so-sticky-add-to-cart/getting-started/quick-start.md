@@ -68,5 +68,5 @@ Done! Visit a product page to see it live. 🎉
 ## Next Steps
 
 **Fine-tune:**
-- [Customizer Overview](../customizer/customizer-overview) - All settings
-- [Best Practices](../advanced/best-practices) - Conversion tips
+- [Customizer Overview](../customizer/customizer-overview.md) - All settings
+- [Best Practices](../advanced/best-practices.md) - Conversion tips

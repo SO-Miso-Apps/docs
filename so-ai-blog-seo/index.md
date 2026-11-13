@@ -20,13 +20,13 @@ These docs mirror the app's in-product Help Center so merchants can browse the s
 
 ## Quick links
 
-- [Getting started](./getting-started)
-- [Content generation](./content-generation)
-- [Quality and SEO](./quality-seo)
-- [Publishing](./publishing)
-- [Billing and credits](./billing-credits)
-- [Automation](./automation)
-- [Troubleshooting](./troubleshooting)
+- [Getting started](./getting-started.md)
+- [Content generation](./content-generation.md)
+- [Quality and SEO](./quality-seo.md)
+- [Publishing](./publishing.md)
+- [Billing and credits](./billing-credits.md)
+- [Automation](./automation.md)
+- [Troubleshooting](./troubleshooting.md)
 
 ## Recommended first workflow
 

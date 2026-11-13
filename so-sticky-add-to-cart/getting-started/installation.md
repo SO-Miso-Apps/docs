@@ -49,9 +49,9 @@ Done! 🎉
 - Clear cache / use incognito
 - Ensure you're on a product page
 
-**Need help?** → [Troubleshooting Guide](../advanced/troubleshooting)
+**Need help?** → [Troubleshooting Guide](../advanced/troubleshooting.md)
 
 ## Next Steps
 
-- [Quick Start](./quick-start) - 5-minute setup guide
-- [Customizer Overview](../customizer/customizer-overview) - Styling options
+- [Quick Start](./quick-start.md) - 5-minute setup guide
+- [Customizer Overview](../customizer/customizer-overview.md) - Styling options

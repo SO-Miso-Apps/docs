@@ -156,7 +156,7 @@ Test on actual phone!
 
 ## Still Stuck?
 
-- Check [FAQ](./faq) for more answers
+- Check [FAQ](./faq.md) for more answers
 - Review documentation
 - Contact support - we're here to help!
 

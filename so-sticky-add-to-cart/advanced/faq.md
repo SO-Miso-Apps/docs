@@ -292,15 +292,15 @@ Yes. Contact support:
 <details>
 <summary><strong>How to uninstall?</strong></summary>
 
-See [Uninstall Guide](../uninstall). Removes all app code automatically.
+See [Uninstall Guide](../uninstall.md). Removes all app code automatically.
 
 </details>
 
 ## Next Steps
 
-- [Troubleshooting](./troubleshooting) - Detailed fixes
-- [Best Practices](./best-practices) - Optimization tips
-- [Customizer](../customizer/customizer-overview) - Full customization
+- [Troubleshooting](./troubleshooting.md) - Detailed fixes
+- [Best Practices](./best-practices.md) - Optimization tips
+- [Customizer](../customizer/customizer-overview.md) - Full customization
 
 **Still have questions?** Contact support!
 

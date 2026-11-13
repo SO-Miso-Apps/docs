@@ -40,10 +40,10 @@ Stores using sticky add-to-cart typically see:
 ---
 
 <div className="button-group">
-  <a className="button button--primary button--lg" href="./installation">
+  <a className="button button--primary button--lg" href="/so-sticky-add-to-cart/getting-started/installation/">
     Install Now →
   </a>
-  <a className="button button--secondary button--lg" href="./quick-start">
+  <a className="button button--secondary button--lg" href="/so-sticky-add-to-cart/getting-started/quick-start/">
     Quick Start Guide
   </a>
 </div>
